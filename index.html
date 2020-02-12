@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EL-DEGA EDUCATIONAL</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="apple-touch-icon" sizes="180x180" href="./static/assets/apple-icon-180x180.png">
+  <link href="./images/logo.jpg" rel="icon">
+</head>
+<body>
+
+  <div class="container">
+      <div class="nav-wrapper">
+
+        <div class="left-side">
+
+            <div class="nav-link-wrapper active-nav-link">
+              <a href="index.html">Home</a>
+              </div>
+
+            <div class="nav-link-wrapper">
+              <a href="about.html">Our Company!</a>
+             </div>
+
+              <div class="nav-link-wrapper">
+              <a href="services.html">Services</a>
+             </div>
+             <div class="nav-link-wrapper">
+              <a href="testimonial.html">TESTIMONIALS</a>
+             </div>
+
+             <div class="nav-link-wrapper">
+              <a href="contact.html">Contact Us</a>
+             </div>
+
+
+        </div>
+
+
+          <div class = "right-side">
+              <div class="brand">
+                 <div>EL-DEGA EAS</div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="content-wrapper">
+        <div class="portfolio-items-wrapper">
+
+            <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/spain.jpg);">
+                
+              </div>
+
+
+
+              <div class="img-text-wrapper">
+                  <div class="subtitle">
+                    
+                    STUDY & WORK IN SPAIN!
+
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+                <div class="portfolio-img-background" style="background-image: url(images/CANADA.jpg);">
+                  
+                </div>
+
+                <div class="img-text-wrapper">
+
+                    <div class="subtitle">
+                     
+                     STUDY & WORK IN CANADA!
+
+                    </div>
+                </div>
+              
+            </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/biola3.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+  
+                    STUDY & WORK IN THE UNITED STATES!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/newhamp.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                    STUDY & WORK IN AUSTRALIA!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/LIT.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+                  <div class="subtitle">
+                  STUDY & WORK IN IRELAND!
+
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/SWISS.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                   
+                   STUDY & WORK IN SWITZERLAND!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/leis.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                     STUDY & WORK IN THE UNITED KINGDOM!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/UAE.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                     STUDY & WORK IN THE UNITED ARAB EMIRATES!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/GER.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+                <div class="subtitle">
+                      STUDY & WORK IN GERMANY!
+
+                  </div>
+
+                 
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/UKRAINE.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+                  <div class="subtitle">
+                     STUDY & WORK IN UKRAINE!
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/RO.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                    STUDY & WORK IN ROMANIA!
+                    
+
+
+                  </div>
+              </div>
+            
+          </div>
+          <div class="portfolio-item-wrapper">  
+              <div class="portfolio-img-background" style="background-image: url(images/NETHERLANDS.jpg);">
+                
+              </div>
+
+              <div class="img-text-wrapper">
+
+                  <div class="subtitle">
+                     STUDY & WORK IN THE NETHERLANDS!
+                  </div>
+              </div>
+            
+          </div>
+
+
+
+
+          
+        </div>
+
+    </div>
+
+
+ </div>
+
+</body>
+<script >
+  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper')
+
+  portfolioItems.forEach(portfolioItem=>{
+    portfolioItem.addEventListener('mouseover', ()=>{
+       portfolioItem.childNodes[1].classList.add('img-darken');
+    })
+      portfolioItem.addEventListener('mouseout', ()=>{
+       portfolioItem.childNodes[1].classList.remove('img-darken');
+    })
+
+  }
+
+  )
+
+
+</script>
+</html>
